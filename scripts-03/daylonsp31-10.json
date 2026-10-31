@@ -1,0 +1,30 @@
+{
+  "sysstat": {
+    "hosts": [
+      {
+        "nodename": "UD26-daylon",
+        "sysname": "Linux",
+        "release": "7.0.0-38-generic",
+        "machine": "x86_64",
+        "number-of-cpus": 2,
+        "file-date": "2026-12-08",
+        "file-utc-time": "10:00:00",
+        "timezone": "WET",
+        "statistics": [
+          {
+            "timestamp": {"date": "2026-12-08", "time": "10:10:00", "tz": "UTC", "interval": 600},
+            "cpu-load": [
+              {"cpu": "all", "user": 0.75, "nice": 0.16, "system": 0.43, "iowait": 0.03, "steal": 0.00, "idle": 98.63}
+            ],
+            "memory": {"memfree": 415340, "avail": 1950476, "memused": 1013524, "memused-percent": 29.54, "buffers": 53348, "cached": 1655768, "commit": 5086524, "commit-percent": 68.87, "active": 782868, "inactive": 1552716, "dirty": 140}
+          }
+        ],
+        "restarts": [
+          {
+            "boot": {"date": "2026-12-08", "time": "10:17:52", "tz": "UTC", "cpu_count": 2}
+          }
+        ]
+      }
+    ]
+  }
+}
